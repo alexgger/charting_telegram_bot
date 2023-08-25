@@ -8,7 +8,7 @@ import os
 import matplotlib
 matplotlib.use('agg')
 
-bot = telebot.TeleBot('5361999109:AAG5prNDK5ey0VAMSfOOh-4NdSaEukYObh0')
+bot = telebot.TeleBot('token-telegram-bot')
 
 
 @bot.message_handler(commands=['start'])
